@@ -1,81 +1,75 @@
-# ⚡ ElecnoTech Wi-Fi Tool v6.1
+# âš¡ï¸ ElecnoTech Wi-Fi Tool v6.1
 
 [![YouTube](https://img.shields.io/badge/YouTube-@ElecnoTech-red)](https://www.youtube.com/@ElecnoTech)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
 
-**English below / فارسی پایین 👇**
-
----
-
-## 🇮🇷 فارسی
-
-ابزار اسکن و تست رمز وای‌فای با وردلیست — **فقط برای تست روی شبکه‌های خودتان یا با مجوز کتبی صاحب شبکه!** دسترسی غیرمجاز به شبکه‌های وای‌فای در اکثر کشورها جرم است.
-
-### ✨ امکانات
-- 🔍 اسکن شبکه‌های اطراف با نمایش قدرت سیگنال و BSSID
-- 🎯 انتخاب چند هدف به‌صورت همزمان (مثلاً `1,3,5`)
-- 📂 تست با وردلیست دلخواه (`rockyou.txt`, `common.txt`, ...)
-- 📊 نوار پیشرفت زنده + خلاصهٔ نتایج در پایان
-- 🖥 خروجی ساده و بدون کاراکتر خراب در تمام کنسول‌های ویندوز
-- ⚡ فایل EXE آماده — نیازی به نصب پایتون نیست
-
-### 🚀 اجرای سریع (فایل EXE)
-1. فایل `ElecnoTech-WiFi-Tool.exe` را از بخش [Releases](../../releases) دانلود کنید.
-2. **Run as Administrator** کنید (برای دسترسی به مودم وای‌فای لازم است).
-3. از منو، شمارهٔ شبکه‌های هدف را با کاما جدا کنید (مثلاً `1,3`).
-4. مسیر وردلیست را بدهید (مثلاً `C:\wordlists\rockyou.txt`).
-5. صبر کنید تا نتیجه بیاید! ✅
-
-### 🐍 اجرا با پایتون
-```bash
-pip install pywifi colorama tqdm
-python wifi.py -w C:\wordlists\rockyou.txt
-```
-
-### ⚠️ هشدار حقوقی
-این ابزار صرفاً جنبهٔ آموزشی و آزمایش امنیت شبکهٔ خودتان را دارد.
-هر سوءاستفاده بر عهدهٔ کاربر است.
-
----
-
-## 🇬🇧 English
+> ðŸŒ **Language / Ø²Ø¨Ø§Ù†:** **English** (default) â€” | â€” [ðŸ‡®ðŸ‡· **ÙØ§Ø±Ø³ÛŒ** (Ú©Ù„ÛŒÚ© Ú©Ù†ÛŒØ¯)](README.fa.md)
 
 Wi-Fi scanner & wordlist-based password tester.
 **Use ONLY on networks you own or have written permission to test!**
 
-### Features
-- 🔍 Nearby network scan with signal strength + BSSID
-- 🎯 Multi-target selection (e.g. `1,3,5`)
-- 📂 Any wordlist you want (`rockyou.txt`, ...)
-- 📊 Live progress bar + final summary
-- 🖥 Clean, plain-text console output
-- ⚡ Ready-made EXE — no Python installation required
+---
 
-### Quick Start (EXE)
-1. Download `ElecnoTech-WiFi-Tool.exe` from [Releases](../../releases).
-2. Run as Administrator.
-3. Pick target networks by number (comma-separated).
-4. Point to your wordlist path.
-5. Wait for results! ✅
+## âœ¨ Features
 
-### Run with Python
+- ðŸ” Nearby network scan with signal strength + BSSID
+- ðŸŽ¯ Multi-target selection (e.g. `1,3,5`)
+- ðŸ“‚ Any wordlist you want (`rockyou.txt`, `common.txt`, ...)
+- ðŸ“Š Live progress bar + final summary of found passwords
+- ðŸ–¥ Clean, plain-text console output (no broken characters on any Windows console)
+- âš¡ï¸ Ready-made EXE â€” no Python installation required
+
+## ðŸš€ Quick Start (EXE â€” recommended)
+
+1. Download `ElecnoTech-WiFi-Tool.exe` from the [Releases](../../releases) section.
+2. **Run as Administrator** (required to access your Wi-Fi adapter).
+3. Pick target networks by number, comma-separated (e.g. `1,3`).
+4. Point to your wordlist path (e.g. `C:\wordlists\rockyou.txt`).
+5. Wait for results! âœ…
+
+## ðŸ Run with Python
+
 ```bash
 pip install pywifi colorama tqdm
 python wifi.py -w C:\wordlists\rockyou.txt
 ```
 
-### ⚠️ Legal
-Educational purpose only. Misuse is your own responsibility.
+> Requires **Windows** (pywifi limitation) + a Wi-Fi adapter.
+
+## ðŸ”¨ Build the EXE yourself
+
+Two options:
+
+- **One-click:** double-click `build_exe.bat` on any Windows machine with Python installed.
+- **Automatic (GitHub Actions):** push this repo â†’ go to the **Actions** tab â†’ **Build Windows EXE** â†’ **Run workflow** â†’ download the EXE from **Artifacts** (~2 min).
+
+## ðŸ›  How it works
+
+1. Scans nearby networks using your Wi-Fi adapter (pywifi).
+2. You select one or more targets.
+3. It loads your wordlist and tries each password against the target.
+4. When a password works, it is shown instantly and listed in the final summary.
+
+## âš ï¸ Legal
+
+This tool is for **educational purposes and authorized security testing only**.
+Unauthorized access to computer networks is illegal in most countries.
+You are fully responsible for any misuse.
 
 ---
 
-## 📺 YouTube
-- ترفندها و ابزارهای خفن تکنولوژی را در کانال ما دنبال کنید 🎬
-- **[Subscribe @ElecnoTech](https://www.youtube.com/@ElecnoTech)**
+## ðŸ“º YouTube
 
-## 📬 Contact
+More awesome tech tricks & tools on our channel ðŸŽ¬
+**[Subscribe â†’ @ElecnoTech](https://www.youtube.com/@ElecnoTech)**
+
+## ðŸ“¬ Contact
+
 - YouTube: [@ElecnoTech](https://www.youtube.com/@ElecnoTech)
 
-## 📄 License
-MIT — free to use, share and modify (educational use only).
+## ðŸ“„ License
+
+MIT â€” free to use, share and modify (educational use only).
+See [LICENSE](LICENSE).

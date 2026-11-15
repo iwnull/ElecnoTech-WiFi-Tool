@@ -1,4 +1,4 @@
-````markdown
+
 # ⚡️ ElecnoTech Wi-Fi Tool v6.1
 
 [![YouTube](https://img.shields.io/badge/YouTube-@ElecnoTech-red)](https://www.youtube.com/@ElecnoTech)
@@ -74,4 +74,4 @@ More awesome tech tricks & tools on our channel 🎬
 
 MIT — free to use, share and modify (educational use only).
 See [LICENSE](LICENSE).
-````
+

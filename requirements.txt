@@ -1,0 +1,4 @@
+# requirements.txt — ElecnoTech Wi-Fi Tool
+pywifi==1.1.12
+colorama==0.4.6
+tqdm==4.67.1

@@ -1,75 +1,77 @@
-# âš¡ï¸ ElecnoTech Wi-Fi Tool v6.1
+````markdown
+# ⚡️ ElecnoTech Wi-Fi Tool v6.1
 
 [![YouTube](https://img.shields.io/badge/YouTube-@ElecnoTech-red)](https://www.youtube.com/@ElecnoTech)
 [![Platform](https://img.shields.io/badge/Platform-Windows-blue)]()
 [![Python](https://img.shields.io/badge/Python-3.8%2B-yellow)]()
 [![License](https://img.shields.io/badge/License-MIT-green)]()
 
-> ðŸŒ **Language / Ø²Ø¨Ø§Ù†:** **English** (default) â€” | â€” [ðŸ‡®ðŸ‡· **ÙØ§Ø±Ø³ÛŒ** (Ú©Ù„ÛŒÚ© Ú©Ù†ÛŒØ¯)](README.fa.md)
+> 🌐 Language / زبان: English (default) — | — [🇮🇷 فارسی (click here)](README.fa.md)
 
 Wi-Fi scanner & wordlist-based password tester.
-**Use ONLY on networks you own or have written permission to test!**
+Use ONLY on networks you own or have written permission to test!
 
 ---
 
-## âœ¨ Features
+## ✨ Features
 
-- ðŸ” Nearby network scan with signal strength + BSSID
-- ðŸŽ¯ Multi-target selection (e.g. `1,3,5`)
-- ðŸ“‚ Any wordlist you want (`rockyou.txt`, `common.txt`, ...)
-- ðŸ“Š Live progress bar + final summary of found passwords
-- ðŸ–¥ Clean, plain-text console output (no broken characters on any Windows console)
-- âš¡ï¸ Ready-made EXE â€” no Python installation required
+- 🔍 Nearby network scan with signal strength + BSSID
+- 🎯 Multi-target selection (e.g. `1,3,5`)
+- 📂 Any wordlist you want (`rockyou.txt`, `common.txt`, ...)
+- 📊 Live progress bar + final summary of found passwords
+- 🖥 Clean, plain-text console output (no broken characters on any Windows console)
+- ⚡️ Ready-made EXE — no Python installation required
 
-## ðŸš€ Quick Start (EXE â€” recommended)
+## 🚀 Quick Start (EXE — recommended)
 
 1. Download `ElecnoTech-WiFi-Tool.exe` from the [Releases](../../releases) section.
-2. **Run as Administrator** (required to access your Wi-Fi adapter).
+2. Run as Administrator (required to access your Wi-Fi adapter).
 3. Pick target networks by number, comma-separated (e.g. `1,3`).
 4. Point to your wordlist path (e.g. `C:\wordlists\rockyou.txt`).
-5. Wait for results! âœ…
+5. Wait for results! ✅
 
-## ðŸ Run with Python
+## 🐍 Run with Python
 
 ```bash
 pip install pywifi colorama tqdm
 python wifi.py -w C:\wordlists\rockyou.txt
 ```
 
-> Requires **Windows** (pywifi limitation) + a Wi-Fi adapter.
+> Requires Windows (pywifi limitation) + a Wi-Fi adapter.
 
-## ðŸ”¨ Build the EXE yourself
+## 🔨 Build the EXE yourself
 
 Two options:
 
-- **One-click:** double-click `build_exe.bat` on any Windows machine with Python installed.
-- **Automatic (GitHub Actions):** push this repo â†’ go to the **Actions** tab â†’ **Build Windows EXE** â†’ **Run workflow** â†’ download the EXE from **Artifacts** (~2 min).
+- One-click: double-click `build_exe.bat` on any Windows machine with Python installed.
+- Automatic (GitHub Actions): push this repo → go to the Actions tab → Build Windows EXE → Run workflow → download the EXE from Artifacts (~2 min).
 
-## ðŸ›  How it works
+## 🛠 How it works
 
 1. Scans nearby networks using your Wi-Fi adapter (pywifi).
 2. You select one or more targets.
 3. It loads your wordlist and tries each password against the target.
 4. When a password works, it is shown instantly and listed in the final summary.
 
-## âš ï¸ Legal
+## ⚠️ Legal
 
-This tool is for **educational purposes and authorized security testing only**.
+This tool is for educational purposes and authorized security testing only.
 Unauthorized access to computer networks is illegal in most countries.
 You are fully responsible for any misuse.
 
 ---
 
-## ðŸ“º YouTube
+## 📺 YouTube
 
-More awesome tech tricks & tools on our channel ðŸŽ¬
-**[Subscribe â†’ @ElecnoTech](https://www.youtube.com/@ElecnoTech)**
+More awesome tech tricks & tools on our channel 🎬
+[Subscribe → @ElecnoTech](https://www.youtube.com/@ElecnoTech)
 
-## ðŸ“¬ Contact
+## 📬 Contact
 
 - YouTube: [@ElecnoTech](https://www.youtube.com/@ElecnoTech)
 
-## ðŸ“„ License
+## 📄 License
 
-MIT â€” free to use, share and modify (educational use only).
+MIT — free to use, share and modify (educational use only).
 See [LICENSE](LICENSE).
+````

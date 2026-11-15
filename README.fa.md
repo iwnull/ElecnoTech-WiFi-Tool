@@ -1,4 +1,4 @@
-````markdown
+
 # ⚡️ ElecnoTech Wi-Fi Tool v6.1
 
 [![YouTube](https://img.shields.io/badge/YouTube-@ElecnoTech-red)](https://www.youtube.com/@ElecnoTech)
@@ -74,4 +74,3 @@ python wifi.py -w C:\wordlists\rockyou.txt
 
 MIT — آزاد برای استفاده، اشتراک‌گذاری و تغییر (فقط مصرف آموزشی).
 مشاهدهٔ [LICENSE](LICENSE).
-````
